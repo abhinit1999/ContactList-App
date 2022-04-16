@@ -7,6 +7,6 @@ I've developed it in React Js. and have used React Hooks.
 # See The Simple Scrren Shot
 
 <p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
+  <img src="https://github.com/abhinit1999/ContactList-App/blob/main/screenshot/Screenshot%20(32).png" width="350" title="Img">
  
 </p>
