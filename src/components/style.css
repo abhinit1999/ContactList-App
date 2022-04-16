@@ -1,0 +1,233 @@
+*
+{
+    margin: 0;padding: 0;box-sizing: border-box;
+   /* overflow-x: hidden; */
+}
+/* Styling for Header Page; */
+
+.heading
+{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(174, 86, 86);
+    top:0;
+    
+    position:sticky;
+}
+.heading .txt
+{
+    width: 50vw;
+    height: auto;
+    margin-left: 30px;
+   
+}
+.txt
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+.txt ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.txt ul li
+{
+    padding: 10px;
+    list-style: none;
+   
+}
+.txt ul li a
+{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+}
+.txt ul li a:hover
+{
+    color: rgb(190, 148, 227);
+    /* opacity: 1; */
+}
+
+.icons
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icons i
+{
+ padding: 10px;
+ font-size: 25px;
+ color: rgb(190, 148, 227); 
+
+}
+.icons i:hover
+{
+    color: black;
+   
+}
+
+
+
+/* End Header page; */
+
+.simple_txt
+{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(237, 241, 244);
+    margin-bottom: 10px;
+}
+
+.heading_txt
+{
+    width: 100vw;
+    background-color: lightgray;
+    text-align: center;
+    
+}
+
+.heading_txt h1
+{
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    color: darkgoldenrod;
+}
+
+.main
+{
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    
+
+
+  
+}
+.addData
+{
+    width: 50vw;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+   background-color: gray;
+}
+.lbl
+{
+   
+    font-weight: bold;
+    color: antiquewhite;
+
+}
+input[type=text]
+{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: cadetblue;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid rgb(198, 26, 26);
+    
+    
+}
+.btn
+{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    background-color: lightblue;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(71, 132, 83);
+}
+
+.displayData
+{
+    width: 50vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    margin-left: 30px;
+   overflow-x: auto;
+   
+}
+.rheading
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;  
+  font-weight: bold;
+}
+.rbtn
+{
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+    color: lightblue;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 10px;
+   
+    
+}
+.rbtn:hover
+{
+    background-color: black;
+    
+
+}
+
+
+/* Styling for DisplayData Page */
+
+.trData
+{
+    width: 100%;
+   background-color:gray;
+}
+.trData td
+{
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: rgb(51, 45, 55);
+    /* letter-spacing: .1rem; */
+    width: 20%;
+    text-align: center;
+    
+}
+.del
+{
+    color: white;
+}
+.del:hover
+{
+    color: green;
+}
+.edit
+{
+    color: lightblue;
+}
+.edit:hover
+{
+    color:lightsalmon;
+}
